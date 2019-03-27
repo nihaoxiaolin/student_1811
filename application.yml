@@ -5,7 +5,7 @@ server:
   servlet:
     context-path: /   #该配置可以删除，默认为/
 spring:
-  profile: test   #该环境为测试环境
+  profiles: test   #该环境为测试环境
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
@@ -42,7 +42,7 @@ server:
   servlet:
     context-path: /   #该配置可以删除，默认为/
 spring:
-  profile: prod
+  profiles: prod
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
